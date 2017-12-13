@@ -1,0 +1,516 @@
+[2017-12-13T07:04:54,631][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:04:54,735][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:04:54,735][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:04:54,764][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:04:54,764][INFO ][o.e.n.Node               ] version[5.4.0], pid[3616], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:04:55,981][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:04:55,981][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:04:55,981][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:04:55,981][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:04:55,982][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:04:55,984][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:04:58,305][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:04:58,963][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:04:58,963][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:04:59,259][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:04:59,269][WARN ][o.e.b.BootstrapChecks    ] [BLnsmvO] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-12-13T07:05:02,369][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{gTpLw7soQHOeMlrL8bFlHw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:05:02,404][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:05:02,408][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:05:02,652][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [2] indices into cluster_state
+[2017-12-13T07:05:03,177][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][2]] ...]).
+[2017-12-13T07:08:03,769][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:08:03,945][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:08:03,946][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:08:03,961][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:08:44,136][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:08:44,227][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:08:44,228][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:08:44,253][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:08:44,254][INFO ][o.e.n.Node               ] version[5.4.0], pid[2215], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:08:45,287][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:08:45,287][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:08:45,287][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:08:45,287][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:08:45,287][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:08:45,288][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:08:45,288][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:08:45,288][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:08:45,288][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:08:45,288][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:08:45,289][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:08:47,252][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:08:48,284][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:08:48,284][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:08:48,453][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:08:51,592][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{RLshnDl6SXGt2U37wn0Otw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:08:51,634][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:08:51,637][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:08:51,827][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [2] indices into cluster_state
+[2017-12-13T07:08:52,326][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][3]] ...]).
+[2017-12-13T07:10:15,470][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:10:15,514][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:10:15,514][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:10:15,524][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:10:45,085][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:10:45,180][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:10:45,180][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:10:45,205][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:10:45,205][INFO ][o.e.n.Node               ] version[5.4.0], pid[3396], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:10:46,408][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:10:46,408][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:10:46,409][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:10:46,409][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:10:46,409][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:10:46,409][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:10:46,410][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:10:46,410][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:10:46,410][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:10:46,410][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:10:46,412][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:10:48,676][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:10:49,676][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:10:49,676][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:10:49,986][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:10:53,086][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{6N43t3ReSlaw9E80_JvQcg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:10:53,118][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:10:53,122][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:10:53,391][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [2] indices into cluster_state
+[2017-12-13T07:10:53,880][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][0]] ...]).
+[2017-12-13T07:11:07,802][INFO ][o.e.c.m.MetaDataDeleteIndexService] [BLnsmvO] [blogpost-index/EUs1RkBbRwKsKMIfJg0lvw] deleting index
+[2017-12-13T07:11:37,743][INFO ][o.e.c.m.MetaDataDeleteIndexService] [BLnsmvO] [investmentops-index/2LFc0KCfT3aF9lnukQLMaQ] deleting index
+[2017-12-13T07:11:51,147][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:11:51,198][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:11:51,198][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:11:51,216][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:12:03,342][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:12:03,436][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:12:03,437][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:12:03,438][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:12:03,438][INFO ][o.e.n.Node               ] version[5.4.0], pid[3582], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:12:04,529][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:12:04,529][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:12:04,529][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:12:04,530][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:12:04,530][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:12:04,530][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:12:04,530][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:12:04,530][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:12:04,531][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:12:04,531][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:12:04,532][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:12:06,603][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:12:07,196][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:12:07,196][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:12:07,418][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:12:10,516][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{b30aHGi_QnmDd3ekEh71aA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:12:10,576][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:12:10,579][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:12:10,602][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [0] indices into cluster_state
+[2017-12-13T07:16:09,812][INFO ][o.e.c.m.MetaDataCreateIndexService] [BLnsmvO] [investmentops-index] creating index, cause [api], templates [], shards [5]/[1], mappings [investment_opp_index]
+[2017-12-13T07:19:04,885][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:19:05,086][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:19:05,086][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:19:05,120][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:19:15,886][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:19:16,022][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:19:16,023][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:19:16,040][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:19:16,041][INFO ][o.e.n.Node               ] version[5.4.0], pid[5277], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:19:17,596][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:19:17,596][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:19:17,597][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:19:17,597][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:19:17,597][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:19:17,598][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:19:17,598][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:19:17,598][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:19:17,598][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:19:17,599][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:19:17,601][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:19:21,166][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:19:22,088][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:19:22,088][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:19:22,499][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:19:25,645][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{RGUaUa0pTdO4Xzgk7BG59w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:19:25,715][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:19:25,723][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:19:25,962][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T07:19:26,386][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][2]] ...]).
+[2017-12-13T07:25:29,284][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:25:29,394][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:25:29,395][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:25:29,412][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:25:29,413][INFO ][o.e.n.Node               ] version[5.4.0], pid[2240], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:25:30,720][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:25:30,720][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:25:30,723][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:25:30,723][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:25:30,723][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:25:30,723][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:25:30,724][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:25:30,724][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:25:30,725][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:25:30,725][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:25:30,730][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:25:34,982][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:25:36,977][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:25:36,977][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:25:37,688][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:25:40,960][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{yI6pmHWeTuerk2DZdQmovA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:25:41,018][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:25:41,027][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:25:41,319][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T07:25:41,634][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][4]] ...]).
+[2017-12-13T07:30:20,275][INFO ][o.e.c.m.MetaDataMappingService] [BLnsmvO] [investmentops-index/bgVeYtZPS8ini7MTDgZ3ZQ] update_mapping [investment_opp_index]
+[2017-12-13T07:31:52,159][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:31:52,582][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:31:52,583][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:31:52,659][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:32:28,306][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:32:28,413][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:32:28,413][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:32:28,433][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:32:28,435][INFO ][o.e.n.Node               ] version[5.4.0], pid[4279], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:32:29,681][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:32:29,682][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:32:29,683][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:32:29,683][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:32:29,683][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:32:29,684][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:32:32,197][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:32:32,918][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:32:32,919][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:32:33,220][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:32:36,299][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{GwzdKYisRAyUJZ2kgo-ldA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:32:36,329][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:32:36,333][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:32:36,526][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T07:32:36,837][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][1]] ...]).
+[2017-12-13T07:33:02,910][DEBUG][o.e.a.b.TransportShardBulkAction] [BLnsmvO] [investmentops-index][3] failed to execute bulk item (index) BulkShardRequest [[investmentops-index][3]] containing [index {[investmentops-index][investment_opp_index][13], source[{"inv_valuation": 10000000000, "name": "Toutiao", "round_size": 2000000000.0, "funding_round": "Private Equity", "industry": "Unknown"}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [inv_valuation]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:298) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:576) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:396) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:373) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:66) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:277) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:536) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndexOnPrimary(IndexShard.java:513) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.prepareIndexOperationOnPrimary(TransportShardBulkAction.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:458) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:143) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:939) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:908) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:322) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:264) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:888) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:885) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShardOperationsLock.acquire(IndexShardOperationsLock.java:147) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationLock(IndexShard.java:1658) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:897) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$400(TransportReplicationAction.java:93) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:281) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:252) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Numeric value (10000000000) out of range of int
+ at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@63c66286; line: 1, column: 30]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.convertNumberToInt(ParserBase.java:928) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase._parseIntValue(ParserBase.java:866) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.getIntValue(ParserBase.java:694) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.doIntValue(JsonXContentParser.java:165) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.intValue(AbstractXContentParser.java:155) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:610) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:589) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper.parseCreateField(NumberFieldMapper.java:1058) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:287) ~[elasticsearch-5.4.0.jar:5.4.0]
+	... 36 more
+[2017-12-13T07:33:09,820][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:33:09,900][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:33:09,900][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:33:09,908][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:33:13,140][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:33:13,237][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:33:13,237][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:33:13,249][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:33:13,250][INFO ][o.e.n.Node               ] version[5.4.0], pid[4419], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:33:14,319][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:33:14,319][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:33:14,319][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:33:14,320][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:33:14,320][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:33:14,320][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:33:14,320][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:33:14,320][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:33:14,321][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:33:14,321][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:33:14,323][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:33:16,716][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:33:17,462][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:33:17,462][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:33:17,701][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:33:20,797][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{pbWA_2GBTfWMo6T_oQMsSA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:33:20,841][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:33:20,845][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:33:21,038][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T07:33:21,425][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][3]] ...]).
+[2017-12-13T07:33:53,354][DEBUG][o.e.a.b.TransportShardBulkAction] [BLnsmvO] [investmentops-index][3] failed to execute bulk item (index) BulkShardRequest [[investmentops-index][3]] containing [index {[investmentops-index][investment_opp_index][13], source[{"funding_round": "Private Equity", "round_size": 2000000000.0, "industry": "Unknown", "inv_valuation": 10000000000, "name": "Toutiao"}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [inv_valuation]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:298) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:576) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:396) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:373) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:66) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:277) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:536) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndexOnPrimary(IndexShard.java:513) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.prepareIndexOperationOnPrimary(TransportShardBulkAction.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:458) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:143) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:939) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:908) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:322) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:264) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:888) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:885) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShardOperationsLock.acquire(IndexShardOperationsLock.java:147) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationLock(IndexShard.java:1658) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:897) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$400(TransportReplicationAction.java:93) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:281) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:252) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Numeric value (10000000000) out of range of int
+ at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@2b6981eb; line: 1, column: 116]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.convertNumberToInt(ParserBase.java:928) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase._parseIntValue(ParserBase.java:866) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.getIntValue(ParserBase.java:694) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.doIntValue(JsonXContentParser.java:165) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.intValue(AbstractXContentParser.java:155) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:610) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:589) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper.parseCreateField(NumberFieldMapper.java:1058) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:287) ~[elasticsearch-5.4.0.jar:5.4.0]
+	... 36 more
+[2017-12-13T07:37:06,416][DEBUG][o.e.a.b.TransportShardBulkAction] [BLnsmvO] [investmentops-index][3] failed to execute bulk item (index) BulkShardRequest [[investmentops-index][3]] containing [index {[investmentops-index][investment_opp_index][13], source[{"name": "Toutiao", "round_size": 2000000000.0, "industry": "Unknown", "funding_round": "Private Equity", "inv_valuation": 10000000000}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [inv_valuation]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:298) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:576) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:396) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:373) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:93) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:66) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:277) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:536) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.prepareIndexOnPrimary(IndexShard.java:513) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.prepareIndexOperationOnPrimary(TransportShardBulkAction.java:450) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeIndexRequestOnPrimary(TransportShardBulkAction.java:458) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.executeBulkItemRequest(TransportShardBulkAction.java:143) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:939) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryShardReference.perform(TransportReplicationAction.java:908) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:113) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:322) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onResponse(TransportReplicationAction.java:264) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:888) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$1.onResponse(TransportReplicationAction.java:885) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShardOperationsLock.acquire(IndexShardOperationsLock.java:147) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.shard.IndexShard.acquirePrimaryOperationLock(IndexShard.java:1658) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.acquirePrimaryShardReference(TransportReplicationAction.java:897) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$400(TransportReplicationAction.java:93) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.doRun(TransportReplicationAction.java:281) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:252) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.0.jar:5.4.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Numeric value (10000000000) out of range of int
+ at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@39486dd5; line: 1, column: 135]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.convertNumberToInt(ParserBase.java:928) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase._parseIntValue(ParserBase.java:866) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserBase.getIntValue(ParserBase.java:694) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.doIntValue(JsonXContentParser.java:165) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.intValue(AbstractXContentParser.java:155) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:610) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper$NumberType$6.parse(NumberFieldMapper.java:589) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.NumberFieldMapper.parseCreateField(NumberFieldMapper.java:1058) ~[elasticsearch-5.4.0.jar:5.4.0]
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:287) ~[elasticsearch-5.4.0.jar:5.4.0]
+	... 36 more
+[2017-12-13T07:38:28,725][INFO ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][young][311][3] duration [775ms], collections [1]/[1s], total [775ms]/[864ms], memory [294.4mb]->[146.6mb]/[1.9gb], all_pools {[young] [251.3mb]->[17.5mb]/[266.2mb]}{[survivor] [33.2mb]->[32.1mb]/[33.2mb]}{[old] [9.8mb]->[97.9mb]/[1.6gb]}
+[2017-12-13T07:38:28,726][WARN ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][311] overhead, spent [775ms] collecting in the last [1s]
+[2017-12-13T07:39:24,231][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T07:39:24,520][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T07:39:24,520][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T07:39:24,534][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T07:40:36,088][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T07:40:36,202][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T07:40:36,202][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T07:40:36,224][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T07:40:36,225][INFO ][o.e.n.Node               ] version[5.4.0], pid[5982], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T07:40:37,554][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T07:40:37,555][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T07:40:37,555][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T07:40:37,555][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T07:40:37,555][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T07:40:37,556][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T07:40:37,556][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T07:40:37,556][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T07:40:37,556][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T07:40:37,556][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T07:40:37,559][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T07:40:40,477][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T07:40:41,269][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T07:40:41,269][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T07:40:41,557][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T07:40:44,650][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{2YInCJ86RgCZq9r_zanVHA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T07:40:44,684][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T07:40:44,688][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T07:40:44,899][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T07:40:45,289][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][4]] ...]).
+[2017-12-13T07:41:06,479][INFO ][o.e.c.m.MetaDataDeleteIndexService] [BLnsmvO] [investmentops-index/bgVeYtZPS8ini7MTDgZ3ZQ] deleting index
+[2017-12-13T07:41:33,312][INFO ][o.e.c.m.MetaDataCreateIndexService] [BLnsmvO] [investmentops-index] creating index, cause [api], templates [], shards [5]/[1], mappings [investment_opp_index]
+[2017-12-13T07:42:45,638][INFO ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][124] overhead, spent [419ms] collecting in the last [1.2s]
+[2017-12-13T08:48:01,197][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T08:48:01,483][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T08:48:01,484][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T08:48:01,574][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T08:51:37,068][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T08:51:37,209][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T08:51:37,209][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T08:51:37,254][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T08:51:37,254][INFO ][o.e.n.Node               ] version[5.4.0], pid[2393], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T08:51:38,581][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T08:51:38,581][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T08:51:38,581][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T08:51:38,582][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T08:51:38,584][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T08:51:41,087][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T08:51:41,745][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T08:51:41,745][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T08:51:42,088][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T08:51:45,156][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{K9NA125IQ_aP21jjG8c-Kg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T08:51:45,197][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T08:51:45,199][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T08:51:45,450][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T08:51:45,829][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][0]] ...]).
+[2017-12-13T09:07:34,993][WARN ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][young][951][3] duration [1.3s], collections [1]/[2.2s], total [1.3s]/[1.4s], memory [301.6mb]->[148.9mb]/[1.9gb], all_pools {[young] [258.9mb]->[16.5mb]/[266.2mb]}{[survivor] [33.2mb]->[33.2mb]/[33.2mb]}{[old] [9.4mb]->[99.7mb]/[1.6gb]}
+[2017-12-13T09:07:34,996][WARN ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][951] overhead, spent [1.3s] collecting in the last [2.2s]
+[2017-12-13T09:07:34,998][INFO ][o.e.c.m.MetaDataDeleteIndexService] [BLnsmvO] [investmentops-index/0pjLs_HpQte9Vo0_eEn95g] deleting index
+[2017-12-13T09:07:49,724][INFO ][o.e.c.m.MetaDataCreateIndexService] [BLnsmvO] [investmentops-index] creating index, cause [api], templates [], shards [5]/[1], mappings [investment_opp_index]
+[2017-12-13T09:09:06,202][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T09:09:06,560][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T09:09:06,561][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T09:09:06,583][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T09:33:49,588][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T09:33:49,680][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.9gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T09:33:49,681][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T09:33:49,699][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T09:33:49,700][INFO ][o.e.n.Node               ] version[5.4.0], pid[2386], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T09:33:50,750][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T09:33:50,750][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T09:33:50,751][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T09:33:50,752][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T09:33:50,753][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T09:33:52,807][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T09:33:53,859][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T09:33:53,860][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T09:33:54,243][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T09:33:57,355][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{bv6YGRz9RJWMxmwLT6Ik_Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T09:33:57,388][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T09:33:57,391][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T09:33:57,586][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T09:33:57,971][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][2]] ...]).
+[2017-12-13T09:40:25,848][INFO ][o.e.c.m.MetaDataMappingService] [BLnsmvO] [investmentops-index/KQkM50hcRm68ptR4GqJ1KQ] update_mapping [investment_opp_index]
+[2017-12-13T10:11:33,851][INFO ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][2259] overhead, spent [486ms] collecting in the last [1s]
+[2017-12-13T15:08:35,763][INFO ][o.e.n.Node               ] [BLnsmvO] stopping ...
+[2017-12-13T15:08:35,960][INFO ][o.e.n.Node               ] [BLnsmvO] stopped
+[2017-12-13T15:08:35,962][INFO ][o.e.n.Node               ] [BLnsmvO] closing ...
+[2017-12-13T15:08:36,016][INFO ][o.e.n.Node               ] [BLnsmvO] closed
+[2017-12-13T15:08:49,519][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-13T15:08:49,698][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.4gb], net total_space [106.1gb], spins? [no], types [ext4]
+[2017-12-13T15:08:49,699][INFO ][o.e.e.NodeEnvironment    ] [BLnsmvO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-13T15:08:49,723][INFO ][o.e.n.Node               ] node name [BLnsmvO] derived from node ID [BLnsmvOAQnut5JYAyePhHw]; set [node.name] to override
+[2017-12-13T15:08:49,724][INFO ][o.e.n.Node               ] version[5.4.0], pid[20939], build[780f8c4/2017-04-28T17:43:27.229Z], OS[Linux/4.8.0-53-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2017-12-13T15:08:51,005][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [aggs-matrix-stats]
+[2017-12-13T15:08:51,005][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [ingest-common]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-expression]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-groovy]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-mustache]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [lang-painless]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [percolator]
+[2017-12-13T15:08:51,006][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [reindex]
+[2017-12-13T15:08:51,007][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty3]
+[2017-12-13T15:08:51,007][INFO ][o.e.p.PluginsService     ] [BLnsmvO] loaded module [transport-netty4]
+[2017-12-13T15:08:51,008][INFO ][o.e.p.PluginsService     ] [BLnsmvO] no plugins loaded
+[2017-12-13T15:08:53,540][INFO ][o.e.d.DiscoveryModule    ] [BLnsmvO] using discovery type [zen]
+[2017-12-13T15:08:54,480][INFO ][o.e.n.Node               ] initialized
+[2017-12-13T15:08:54,480][INFO ][o.e.n.Node               ] [BLnsmvO] starting ...
+[2017-12-13T15:08:54,840][INFO ][o.e.t.TransportService   ] [BLnsmvO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-13T15:08:57,944][INFO ][o.e.c.s.ClusterService   ] [BLnsmvO] new_master {BLnsmvO}{BLnsmvOAQnut5JYAyePhHw}{tHm-mrtRSeyKPLM9XvBhFQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-13T15:08:57,998][INFO ][o.e.h.n.Netty4HttpServerTransport] [BLnsmvO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-13T15:08:58,002][INFO ][o.e.n.Node               ] [BLnsmvO] started
+[2017-12-13T15:08:58,191][INFO ][o.e.g.GatewayService     ] [BLnsmvO] recovered [1] indices into cluster_state
+[2017-12-13T15:08:58,859][INFO ][o.e.c.r.a.AllocationService] [BLnsmvO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[investmentops-index][1]] ...]).
+[2017-12-13T15:14:52,929][WARN ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][young][358][3] duration [1.1s], collections [1]/[1.2s], total [1.1s]/[1.2s], memory [302.8mb]->[162.5mb]/[1.9gb], all_pools {[young] [262.9mb]->[17.4mb]/[266.2mb]}{[survivor] [31.4mb]->[33.2mb]/[33.2mb]}{[old] [8.4mb]->[112.6mb]/[1.6gb]}
+[2017-12-13T15:14:52,933][WARN ][o.e.m.j.JvmGcMonitorService] [BLnsmvO] [gc][358] overhead, spent [1.1s] collecting in the last [1.2s]
